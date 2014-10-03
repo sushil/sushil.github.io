@@ -1,0 +1,474 @@
+%%================= New for ICS225 project =============================%% 
+@article{url:argoNS,
+ author={},
+ title={ArgoUML, Project Announcement},
+ journal={http://argouml.tigris.org/ servlets/NewsItemView?newsItemID=1019}
+}	
+
+@inproceedings{baj+05:nov,
+	author = {Sushil Krishna Bajracharya and Trung Chi Ngo and Cristina Videira Lopes},
+	title = {On Using Net Options Value as a Value Based Design Framework},
+	booktitle = {The 7th International Workshop on Economics-Driven Software Engineering Research},
+	publisher = {To Appear},
+}	
+
+
+@inproceedings{lop05:noa,
+	author = {Cristina Videira Lopes},
+	title = {On the Nature of Aspects: Principles of Aspect-Oriented Design},
+	booktitle = {ACM Transactions of Software Engineering},
+	publisher = {Under Review},
+}	
+
+@article{alan,
+    author = "Alan MacCormack and John Rusnak and Carliss Baldwin",
+    title = "Exploring the Structure of Complex Software Designs: An Empirical
+		Study of Open Source and Proprietary Code",
+    journal = "published online, http://www.people.hbs.edu/cbaldwin/DR2/ MRBDesignStructure17thSep1.pdf",
+    annote = {
+			This paper uses Design Structure Matrices (a tool which is also used in NOV analysis) 
+			and metrics based on these structures to 
+			develop metrics to evaluate the modularity of design of publicly available projects, the 
+			Linux Kernel and Mozilla. It shows that evaluating design by extracting information from 
+			source repositories is possible. However the work that has been done here is slightly 
+			different as we are seeking to validate our measurement function whereas this paper
+			uses their metric to evaluate the design.
+    }
+}
+
+@book{shav88:statSc,
+	author = {Richard J. Shavelson},
+	title = {Statistical Reasoning for Behavioral Sciences},
+	ISBN = {0-205-11287-0},
+	publisher = {Allyn and Bacon, inc.},
+	year = {1988},
+	annote={
+			This book is an extensive treatment of statistical methods for doing empirical research.
+			It particularly focus on dseigning and drawing statistical inferences from
+			experiments in behavioral sciences. 
+			
+	}
+}
+
+@inproceedings{fn00,
+ author = {Norman E. Fenton and Martin Neil},
+ title = {Software metrics: roadmap},
+ booktitle = {Proceedings of the conference on The future of Software engineering},
+ year = {2000},
+ isbn = {1-58113-253-0},
+ pages = {357--370},
+ location = {Limerick, Ireland},
+ doi = {http://doi.acm.org/10.1145/336512.336588},
+ publisher = {ACM Press},
+ annote = {
+		 This paper presents a prediction model based on Bayesian Networks. Fenton argues why
+		 conventional metrics are not good enough in making reliable predictions about software
+		 properties and how a causal model based on bayesian net (BBN) can help make more accurate
+		 and predictions predictions. It claims that metrics are required but should be used with care
+		 in a more reliable model like BBN. 
+		 }
+ }
+
+@inproceedings{dem+00:refacMetrics,
+	 author = {Serge Demeyer and Stephane Ducasse and Oscar Nierstrasz},
+	 title = {Finding refactorings via change metrics},
+	 booktitle = {OOPSLA '00: Proceedings of the 15th ACM SIGPLAN conference on Object-oriented 
+				 programming, systems, languages, and applications},
+	 year = {2000},
+	 isbn = {1-58113-200-X},
+	 pages = {166--177},
+	 location = {Minneapolis, Minnesota, United States},
+	 doi = {http://doi.acm.org/10.1145/353171.353183},
+	 publisher = {ACM Press},
+   annote = {
+		   Refactoring is a common programming technique for enhancing the internal structure 
+		   of a program without affecting its external behavior. Refactoring involves making 
+		   incremental changes to the structure of code to achieve particular design goals. 
+		   The main key contribution that this paper made is to propose techniques for 
+		   identifying refactorings in  the development history of a software system. 
+		   Specifically, applying software metrics to successive versions of a software system 
+		   and measuring changes helps program understanding and design recovery. 
+		   Techniques proposed in this paper can help in detecting refactorings in the development 
+		   history of a software module. Our early intuition makes us believe that there is a strong 
+		   relationship between environmental parameters and this type of design change. 
+   }
+ }
+ 
+ % Remote analysis and measurement of libre software systems by means of the CVSAnalY tool
+ 
+@inproceedings{roble+04:cvsAnaly,
+ 	author={Gregorio Robles and Stefan Koch and Jesus M. Gonzalez-Barahona},
+	title={Remote analysis and measurement of libre software systems by means of the CVSAnalY tool},
+	booktitle={2nd ICSE Workshop on Remote Analysis and Measurement of Software Systems 
+			(RAMSS '04). 26th International Conference on Software Engineering 
+			(Edinburgh, Scotland)},
+	month = {May},
+	year = {2004},
+  annote = {
+		This paper explores ways to remotely measure and analyze software projects whose 
+		source is publicly available. CVSAnalY, the tool presented in this paper, has the 
+		capability of accessing and extracting metrics from CVS (Concurrent Versions System) 
+		source code repository. The tool mentioned in this paper seems to generate 
+		change information about each CVS module. For our project we need a more fine-grained
+		information, especially change information per progaram units.
+  }
+}
+
+%%================== survey ====================================%%
+
+ 
+@Book{boe81:seco,
+  author =       "Barry Boehm",
+  title =        "Software Engineering Economics",
+  publisher =    "Prentice-Hall",
+  publaddr =     "Englewood Cliffs , NJ , USA",
+  year =         "1981",
+ annote = {
+			   In this book, Barry Boehm introduced the Constructive Cost Model (COCOMO) for 
+			   software project and plannning. The comprehensive treatment of COCOMO and 
+			   usage of conventional metrics and economic theory in constructing the model
+			   seems to be relevant to our project. However, we need to delve deeper in the book 
+			   for better understanding the mechanics behind COCOMO.
+			}
+
+ }
+ 
+ @article{boe95:cocomo2,
+    author = "Barry W. Boehm and Bradford Clark and Ellis Horowitz and J. Christopher Westland and 
+		    Raymond J. Madachy and Richard W. Selby",
+    title = "Cost Models for Future Software Life Cycle Processes: {COCOMO} 2.0",
+    journal = "Annals of Software Engineering",
+    volume = "1",
+    pages = "57-94",
+    year = "1995",
+  	annote = {
+			This paper introduces 
+			COCOMO 2.0 as a successor to COCOMO 81. COCOMO 2.0 is a new 
+			software cost estimation model aimed at software development practices 
+			of the 1990's and 2000's. It provides a tailorable set of different 
+			size-related metrics and new adjustment factors for dealing with software 
+			reuse, re-engineering, conversion, and maintenance.
+			COCOMO 2.0 is a quantitative framework that takes into account several
+			metrics such as; Object Points, Function 
+			Points, and Source Lines of Code; for making predictions about the effort 
+			required. A deeper understanding of how such metrics fits in COCOMO can give
+			some insights on how metrics can be used in quantitative models.
+    }
+}
+
+ @book{sol+99:gqm,
+	 author = {Rini van Soligen and Egon Berghout},
+	 title = {The Goal/Question/Metric method},
+	 year = {1999},
+	 isbn = {007 709553 7},
+	 publisher = {McGraw-Hill},
+	 annote = {
+			The Goal/Question/Metric (GQM) model was first introduced by Victor Basili 
+			and David Weiss in the 80's. This approach suggested that software 
+			measurement must be defined in a top-down, goal-based fashion. 
+			A GQM-based measurement program is a hierarchy structure starting with some 
+			particular goals (objectives of measurement). The goals are refined into set of 
+			questions, and then each question is refined to a set of metrics that need to be 
+			collected. Our method of devising the the set of metrics for measuring components' 
+			technical values also fall under the GQM spectrum. In particular the goal driven approach 
+			is consistent with the notion of associating design values based on design goals that was
+			demonstrated in one of the papers on using NOV by Lopes and Bajracharya.
+		  }
+}
+
+@techreport{193851,
+ author = {Lionel Briand and Sandro Morasca and Victor R. Basili},
+ title = {Defining and validating high-level design metrics},
+ year = {1994},
+ source = {Univ. of Maryland Institute for Advanced Computer Studies Report No. UMIACS-TR-94-75},
+ publisher = {University of Maryland at College Park},
+ 	 annote = {
+			Most software measurement approaches focus on capturing characteristics of software 
+			code. However, source code is usually avaiable at later phases of the software 
+			development life cycle. This paper focuses on exploring high-level design metrics 
+			for software systems. The hypothesis of this approach is that early availability of 
+			software metrics enable 1) early detection of problems, 2) better software quality monitoring, 
+			and 3) more accurate planning. Two ratio-based design metrics are proposed in the paper 
+			for measuring the degree of cohesion and coupling of software components. These 
+			metrics are experimented and empirically validated on three NASA projects.  
+		   }
+ }
+
+ 
+@article{rom90:dm,
+    author = "H. Dieter Rombach",
+    title = "Design measurement: some lessons learned",
+    journal = "Software, IEEE",
+    volume = "volume: 7, Issue: 2",
+    pages = "17-25",
+    year = "1990",
+  	annote = {
+			In this paper Rombach presented a design-measurement framework 
+			based on the experience he gained from measuring design aspects of some 
+			large-scaled software projects. He suggested that designers should choose and tailor an 
+			effective measurement approach such as the Goal/Question/Metrics (GQM) for measuring 
+			certain design aspects of interest. He argued a successful design measurement 
+			method should consider a variety of design measures, including both 
+			{\it abstract} and {\it specific} measures, {\it process} and {\it product} measures, 
+			{\it direct} and {\it indirect} measures, and {\it objective} and {\it subjective} measures.   
+    }
+}
+
+ 
+@inproceedings{gal+98:cvsanalysis,
+  author = "Harald Gall and Mehdi Jazayeri and Jacek Krajewski",
+  title = "Detection of logical coupling based on product release history",
+	 booktitle = {Proceedings. International Conference on Software Maintenance, 1998},
+	 year = {1998},
+	 pages = {190--198},
+	 location = {Bethesda, MD USA},
+	 publisher = {IEEE},
+  annote = {
+		This paper presents the CEASAR approach for identifying change patterns among modules based on 
+		their 
+		development history. This approach consists of two processes {\it Change Sequence Analysis} (CSA) 
+		for identifying common patterns of changes and {\it Change Report Analysis} (CRA) for validating 
+		the patterns found in the CSA process. This paper is very relevant to our project as it demonstrates
+		the use of information on changes from CVS and 
+		to reveal the hidden logical coupling among modules 
+		of large software projects.
+		}
+}
+
+
+
+@inproceedings{gal+03:cvsanalysis,
+  author = "Harald Gall and Mehdi Jazayeri and Jacek Krajewski",
+  title = "CVS release history data for detecting logical couplings",
+	 booktitle = {Proceedings. Sixth International Workshop on Principles of Software Evolution, 2003},
+	 year = {2003},
+	 pages = {13--23},
+	 location = {Minneapolis, Minnesota, United States},
+	 publisher = {IEEE},
+  	annote = {
+			QCR is a software evolution analysis technique consisting of three 
+			complementary techniques: 1) {\it Quantitative Analysis} for observing 
+			change and growth rates, 2) {\it Change Sequence Analysis} (CSA) for revealing 
+			common change patterns, and {\it Relation Analysis} for recovering dependencies 
+			by change-related attributes. This paper focuses the discussion of the RA technique, 
+			which was introduced to complement the other two (published in '97 and '98). 
+			The RA technique deals with extracting neccessary information from CVS about changes made 
+			to single modules during their history of development. These evidences of evolution 
+			are used to compare and reveal logical dependencies between modules 
+			(modules were most frequently changed together). 
+		    }
+ }
+ 
+	
+  
+  @article{kem99:ieeesoft,
+    author = "Chris F. Kemerer and Sandra Slaughter",
+    title = "An empirical approach to studying software evolution",
+    journal = "Software, IEEE",
+    volume = "volume: 25, Issue: 4",
+    pages = "493-509",
+    year = "1999",
+  	annote = {
+    In this paper, the authors provide a set of methods and techniques for designing empirical study of software evolution. As we plan to look at the development history of real projects for verifying the correctness and usefulness of our new set of metrics, this paper is definitely a valuable source for us.
+  }
+}
+
+ %%================= From existing bib files ==============================%% 
+
+
+
+ @book{fenton+91:swmetrics,
+	 author = {Norman Fenton},
+	 title = {Software metrics (1st ed.): A rigorous approach},
+	 year = {1991},
+	 isbn = {0-442-31355-1},
+	 publisher = {Chapman and Hall},
+	 annote = {This book is one of the major references for our project. It provides a critical analysis 
+			of many proposed metrics in software that span wide range of measurements. These 
+			measurements are categorized into metrics that measure internal attrubutes, external 
+			attribures and resources like productivity. More important for our project are the 
+			earlier six chapters that details fundamentals of software measurement, 
+			data collection/analysis and software measurement validation. (Chapters 2 -6) 
+			}
+}
+
+@book{fenton+97:swmetrics,
+	 author = {Norman Fenton and Shari Lawrence Pfleeger},
+	 title = {Software metrics (2nd ed.): a rigorous and practical approach},
+	 year = {1997},
+	 isbn = {0-534-95600-9},
+	 publisher = {PWS Publishing Co.},
+	 annote = {
+			This is the second edition of Fenton's popular book on metrics.
+		 }
+	 
+ }
+
+@inproceedings{lop+:dsm,
+ author = {Cristina Videira Lopes and Sushil Krishna Bajracharya},
+ title = {An analysis of modularity in aspect oriented design},
+ booktitle = {AOSD '05: Proceedings of the 4th international conference on Aspect-oriented software development},
+ year = {2005},
+ isbn = {1-59593-043-4},
+ pages = {15--26},
+ location = {Chicago, Illinois},
+ doi = {http://doi.acm.org/10.1145/1052898.1052900},
+ publisher = {ACM Press},
+ address = {New York, NY, USA},
+ annote = {
+			This paper applies NOV to evaluate several design changes in a web-based system
+			from its creation (by resusing a freely available system) to its completion
+			where two of its features: \emph{logging} and \emph{authentication} are 
+			modularized using	Aspects. This paper demonstrates that NOV is applicable in the 
+			design of of non-trivial real world application and is able to capture modularization using
+			novel techniques like Aspects. A key highlight of this paper is it presents
+			an early intuition about evaluating technical potential of a module and also 
+			refines the notion of \emph{environment parameter} introduced by Sullivan et.al
+			}
+ }
+
+
+@book{ bc:dr,
+	author ="Carliss Y. Baldwin and Kim B. Clark",
+	title = "Design Rules vol I, The Power of Modularity",
+	publisher = "MIT Press",
+	year = "2000",
+	isbn = "0-262-02466-7",
+	annote = {
+			This is the definite reference for the Net Options Value (NOV) model for analyzing 
+			designs.  Baldwin and Clark build the theory and the analytical framework for NOV 
+			based on: (i) the economic theory of Real Options, (ii) seminal philosophical 
+			foundations for design, and (iii) historical results from computer industry, mainly 
+			IBM/360. 
+		}
+}
+
+@book{shaw+:sa,
+	 author = {Mary Shaw and David Garlan},
+	 title = {Software architecture: perspectives on an emerging discipline},
+	 year = {1996},
+	 isbn = {0-13-182957-2},
+	 publisher = {Prentice-Hall, Inc.},
+	 annote = {
+			This book is one of the earliest and comprehensive treatment of Software Architecture. 
+			In the context 
+			of our project, this book presents several architectural designs for the KWIC 
+			 program that was first	 proposed by Parnas and further used by Sullivan et.al as an 
+			 example to demonstrate the use of NOV in evaluating design.
+			 However, we believe that we cannot use KWIC example and the criteria to evaluate
+			 design for KWIC implementations given in this book since the data we need to
+			 evaluate the measures of technical potential has to deal with the evolution of 
+			 design or modules and we donot have any such data available for KWIC.
+			}
+ }
+
+ @inproceedings{sul:dsm,
+	 author = {Kevin J. Sullivan and William G. Griswold and Yuanfang Cai and Ben Hallen},
+	 title = {The structure and value of modularity in software design},
+	 booktitle = {Proceedings of the 8th European software engineering conference held jointly 
+			 with 9th ACM SIGSOFT international symposium on Foundations of software engineering},
+	 year = {2001},
+	 isbn = {1-58113-390-1},
+	 pages = {99--108},
+	 location = {Vienna, Austria},
+	 doi = {http://doi.acm.org/10.1145/503209.503224},
+	 publisher = {ACM Press},
+	 annote = {
+			 This seems to be the first paper that treats NOV in the context of software. It uses 
+			 the KWIC program proposed by Dave Parnas as an example to demonstrate the usage 
+			 of NOV in evaluating design. A key contribution this paper makes is the notion of 
+			 Environment Parameters as the indicators of Technical Potential of a module in a 
+			 given design. 
+			}
+ }
+
+ @article{parnas:Criteria,
+	 author = {D. L. Parnas},
+	 title = {On the criteria to be used in decomposing systems into modules},
+	 journal = {Commun. ACM},
+	 volume = {15},
+	 number = {12},
+	 year = {1972},
+	 issn = {0001-0782},
+	 pages = {1053--1058},
+	 doi = {http://doi.acm.org/10.1145/361598.361623},
+	 publisher = {ACM Press},
+	 annote= {
+			 Dave Parnas introduced the concept of Information Hiding in this paper and presented 
+			 his idea using the Key Words In Context (KWIC) example. He argued that software 
+			 systems should be decomposed into modules considering many changeability 
+			 factors while facilitating independent development of modules and comprehensibility 
+			 of the software produced. His introduced \emph{Information 
+			Hiding} as the criteria to decompose system into modules unlike the then 
+			conventional way of decomposition using program flow or flowcharts.
+		}
+ }
+
+@inproceedings{desouza+04:tech2soc, 
+	author = {de Souza Cleidson and Paul Dourish and David Redmiles and Stephen Quirk and Erik Trainer}, 
+	title= {From Technical Dependencies to Social Dependencies}, 
+	booktitle={CSCW'04 Workshop on Social Networks, Chicago, IL, USA}, 
+	month={November 6-10}, 
+	year={2004} 
+	}
+
+ 
+ @inproceedings{dmg2003osse,
+  author =       "Daniel M. German and Audris Mockus",
+  title =        "Automating the Measurement of Open Source Projects",
+  booktitle =    "Proceedings of the 3rd Workshop on Open Source Software Engineering",
+  year  =        "2003",
+  month =        "May",
+}
+
+@inproceedings{suc01:edser,
+  author =       "Giancarlo Succi and James Paulson and Armin Eberlien",
+  title =        "Preliminary Results from an Experimental Study on the Growth of Open Source and Commercial Software Products",
+  booktitle =    "Third International Workshop on Economics-Driven Software Engineering Research (EDSER 03), Toronto, Canada",
+  year  =        "2001",
+  month =        "May",
+}
+
+
+@inproceedings{moc00:sm,
+  author =       "Audris Mockus and Lauwrence G. Votta",
+  title =        "Identifying reasons for software changes using historic databases",
+booktitle =    "Proceedings of International Conference on Software Maintenance,  San Jose, CA USA",
+  year  =        "2000",
+  pages = {120--130},
+}
+
+
+@inproceedings{rob96:kbse,
+  author =       "Jason E. Robbins and David M. Hilbert and David F. Redmiles.",
+  title =        "Extending Design Environments to Software Architecture Design",
+  booktitle =    "The International Journal of Automated Software Engineering. Special issue: The Best of KBSE'96",
+  year  =        "1996",
+}
+
+
+@article{ant:web,
+ author = {Apache Ant},
+ title = {Ant build system home page},
+ journal = {http://ant.apache.org},
+}
+
+
+@article{argo:web,
+ author = {ArgoUML},
+ title = {ArgoUML home page},
+ journal = {http://argouml.tigris.org},
+}
+
+
+@article{depfinder:web,
+ author = {},
+ title = {Dependency Finder home page},
+ journal = {http://depfind.sourceforge.net},
+}
+
+@article{xpath:web,
+ author = {W3C},
+ title = {XML Path Language (XPath)},
+ journal = {http://www.w3.org/TR/xpath},
+}
